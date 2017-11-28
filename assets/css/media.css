@@ -1,0 +1,23 @@
+@media (min-width:700px) and (max-width:900px) {
+  .paisaje {
+    background-image: url(../img/night.jpg);    
+  }
+  img {
+    content: url(../img/kitten-small.png);
+  }
+}
+
+@media (min-width:300px) and (max-width:699px) {
+  [class*="col-"] {
+    width: 100%;
+  } 
+  .paisaje {
+    background-image: url(../img/dawn.png);    
+  }
+  img {
+    content: url(../img/kitten-large.png);
+    width: 80%;
+    right: 25%;
+  }
+
+}
